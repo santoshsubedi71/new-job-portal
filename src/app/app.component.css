@@ -1,0 +1,26 @@
+/* app.component.css */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+  }
+  
+  app-footer {
+    margin-top: auto; /* Ensures the footer stays at the bottom */
+  }
+  
+
+  body {
+    background-color: #E8F5E9;
+    color: #1B5E20;
+  }
+  

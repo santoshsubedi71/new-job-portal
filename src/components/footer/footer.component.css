@@ -1,0 +1,54 @@
+/* .logo {
+    width: 70px;
+    height: auto;
+}
+.footer-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .footer-wrap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50px;
+    }
+    .company-section, .help-section{
+        min-width: 250px;
+        padding: 10px 0;
+    }
+  
+} */
+
+footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  footer ul li {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  footer ul ul {
+    font-size: 0.85rem;
+  }
+  
+  footer hr {
+    margin: 1.5rem 0;
+  }
+  
+  footer img {
+    max-height: 80px;
+  }
+  
+  

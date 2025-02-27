@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack sections vertically */
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .header, .slider, .main-section, .footer {
+    width: 100%;
+  }
+ 
+

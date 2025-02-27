@@ -1,0 +1,202 @@
+{
+ "ABOUT": "About",
+  "SERVICES": "Services",
+  "JOBS": "Jobs",
+  "CONTACT": "Contact",
+  "JOB_PORTAL": "Job Portal",
+  "LANGUAGE": "Language",
+  "SLIDER": {
+    "TITLE": "Continue to Change.",
+    "DESCRIPTION": "Admic proposes new possibilities by ADDing people and companies and MIXing them together."
+  },
+  "SERVICE_SECTION": {
+    "TITLE": "For Companies Looking for Talent",
+    "SUBTITLE": "Our Services",
+    "FIRST_SECTION": {
+      "HEADING": "For Companies Looking for Talent",
+      "DESCRIPTION": "We thoroughly understand the essence and provide the best talent in a timely manner. We create the best environment for both our clients and the employees.",
+      "OPTIONS": {
+        "OPTION_1": "01 Staffing Services",
+        "OPTION_2": "02 Specific Skilled Foreign Worker Introduction Service",
+        "OPTION_3": "03 Outsourcing Services"
+      }
+    },
+    "SECOND_SECTION": {
+      "HEADING": "For Job Seekers Looking for Work",
+      "DESCRIPTION": "Admic is the best partner that connects 'companies' and 'talent.' We maximize our value and pursue satisfaction for both companies and job seekers.",
+      "OPTIONS": {
+        "OPTION_1": "01 Job Information Services",
+        "OPTION_2": "02 Career Support",
+        "OPTION_3": "03 Career Consultation"
+      }
+    }
+  },
+  "LEARN_MORE": "Learn More",
+  "INTERVIEW_SECTION": {
+    "TITLE": "Interview & Apply",
+    "DESCRIPTION": "Prepare for your next interview with us! Our platform provides the tools you need to apply for jobs and succeed in interviews.",
+    "COMPANY_INFO": "Company Information",
+    "COMPANY_OVERVIEW": "Company Overview",
+    "SECTIONS": {
+      "PHILOSOPHY": {
+        "TITLE": "Corporate Philosophy & Basic Action Guidelines",
+        "BUTTON": "Learn More"
+      },
+      "MESSAGE": {
+        "TITLE": "Top Message",
+        "BUTTON": "Learn More"
+      },
+      "OVERVIEW": {
+        "TITLE": "Company Overview",
+        "BUTTON": "Learn More"
+      }
+    }
+  },
+  "CASE_STUDY_SECTION": {
+    "TITLE": "CASE STUDY",
+    "SUBTITLE": "Case Studies",
+    "BUTTON": "Learn More",
+    "STUDIES": {
+      "STUDY_1": {
+        "TITLE": "Outsourcing of Meat Center in a Major Department Store Supermarket"
+      },
+      "STUDY_2": {
+        "TITLE": "Utilization of Short-Term and Temporary Staff in Picking Operations at a Major Logistics Warehouse"
+      }
+    }
+  },
+  "COLUMN_SECTION": {
+    "TITLE": "Column",
+    "BUTTON": "Learn More",
+    "ITEMS": [
+      {
+        "ALT": "Employee Productivity",
+        "TEXT": "Prevent temporary employees from leaving quickly! How to improve retention rates effectively"
+      },
+      {
+        "ALT": "Recruitment Benefits",
+        "TEXT": "What is a temp-to-perm staffing service? Features and benefits explained"
+      },
+      {
+        "ALT": "Integrated Services",
+        "TEXT": "What is a comprehensive human resource service company? Introduction to its services"
+      },
+      {
+        "ALT": "Work Environment",
+        "TEXT": "Tips for creating a comfortable workplace environment"
+      },
+      {
+        "ALT": "Job Hunting Tips",
+        "TEXT": "Key points for a successful job search"
+      },
+      {
+        "ALT": "Career Growth",
+        "TEXT": "What skills are needed for career growth?"
+      }
+    ]
+  },
+  "INFORMATION_SECTION": {
+    "TITLE": "INFORMATION",
+    "SUBTITLE": "Announcements",
+    "DETAILS_LINK": "Learn More",
+    "NEWS": [
+      {
+        "DATE": "2024.11.04",
+        "TEXT": "Selected for SalesNow DB's 'Growth Company Selection'."
+      },
+      {
+        "DATE": "2024.07.05",
+        "TEXT": "Publication of the 2024 fiscal year's margin rate."
+      },
+      {
+        "DATE": "2023.12.11",
+        "TEXT": "Notice regarding the acquisition of Winbook Co., Ltd. (subsidiary)."
+      }
+    ]
+  },
+  "FOOTER": {
+    "COMPANY_SECTION": {
+      "TITLE": "For Companies",
+      "ITEMS": [
+        "Admic Features",
+        "Case Studies",
+        "Staffing Services",
+        "Specific Skilled Foreign Worker Introduction",
+        "Outsourcing Services"
+      ]
+    },
+    "JOB_SEEKER_SECTION": {
+      "TITLE": "For Job Seekers",
+      "ITEMS": [
+        "Job Information Service 'JOB-CAST'"
+      ]
+    },
+    "COMPANY_INFO_SECTION": {
+      "TITLE": "Company Information",
+      "ITEMS": [
+        "Corporate Philosophy",
+        "Top Message",
+        "Company Overview",
+        "Office Locations"
+      ]
+    },
+    "COLUMN_SECTION": {
+      "TITLE": "Column",
+      "ITEMS": [
+        "News",
+        "Recruitment Information",
+        "Mid-Career Recruitment Entry",
+        "Contact Us"
+      ]
+    },
+    "LEGAL_SECTION": {
+      "ITEMS": [
+        "Terms of Use",
+        "Privacy Policy",
+        "Regarding My Number",
+        "Clarification of Job Categories",
+        "Site Map"
+      ]
+    },
+"JOB_PORTAL": {
+  "JOB_LISTINGS": "Job Listings",
+  "JOB_TYPE": "Job Type",
+  "WORK_MODE": "Work Mode",
+  "SALARY": "Salary",
+  "FULL_TIME": "Full-Time",
+  "PART_TIME": "Part-Time",
+  "INTERNSHIP": "Internship",
+  "CONTRACT": "Contract",
+  "ON_SITE": "On-Site",
+  "REMOTE": "Remote",
+  "HYBRID": "Hybrid",
+  "NO_JOBS": "No jobs match the selected filters.",
+  "VIEW_DETAILS": "View Details",
+  "APPLY_NOW": "Apply Now"
+},
+"contact": {
+    "title": "Contact Us",
+    "type": "Type",
+    "corporate": "Corporate",
+    "individual": "Individual",
+    "company_name": "Company Name",
+    "name": "Name",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phonetic": "Phonetic Name",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "message": "Message",
+    "submit": "Submit",
+    "validation": {
+      "required": "This field is required",
+      "phone": "Enter a valid 10-digit phone number",
+      "email": "Enter a valid email address",
+      "message": "Message must be at least 10 characters",
+      "type": "Please select a type"
+    }
+  }
+    
+  }
+  
+}

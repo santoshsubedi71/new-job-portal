@@ -1,0 +1,85 @@
+/* Card Body Styling */
+.card-body {
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Hover effect to zoom in the card */
+.card:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Custom CSS for banner image with fixed dimensions */
+.banner-img {
+  width: 100%;    /* Ensure the image takes full width */
+  height: 450px;  /* Fixed height of 450px */
+  object-fit: cover;  /* Ensures the image fits well without stretching */
+}
+
+/* Ensure the banner section takes full width */
+.container-fluid {
+  padding: 0;
+}
+
+/* Fade-in effect for the cards */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply the fade-in animation to all cards */
+.card {
+  animation: fadeIn 1s ease-out;
+}
+
+/* For individual delay between card animations */
+.card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+/* Card Image Styling */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Title Styling */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Card Text Styling */
+.card-text {
+  font-size: 1rem;
+}
+
+/* Button Styling */
+.btn-primary {
+  background-color: #de3976;
+  border-color: #de3976;
+}
+
+/* Button Hover Effect */
+.btn-primary:hover {
+  background-color: #bf1f6b;
+  border-color: #bf1f6b;
+}

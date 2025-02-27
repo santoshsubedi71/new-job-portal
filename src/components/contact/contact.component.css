@@ -1,0 +1,18 @@
+
+.custom-submit-btn {
+    padding: 10px 20px; 
+    display: block; 
+    width: 50%; 
+    font-size: 16px; 
+  }
+  .custom-submit-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .custom-submit-btn:disabled {
+    background-color: #087c18;
+    cursor:pointer;
+    margin-top: 1rem;
+  }
+  

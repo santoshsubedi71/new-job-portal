@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="">
+      <img src="assets/logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="about">{{ 'ABOUT' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="services">{{ 'SERVICES' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="job">{{ 'JOBS' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="contact">{{ 'CONTACT' | translate }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="job-portal">{{ 'JOB_PORTAL' | translate }}</a>
+        </li>
+      </ul>
+      <div class="d-flex">
+        <button class="btn btn-outline-light me-2" (click)="switchLanguage('en')">English</button>
+        <button class="btn btn-outline-light" (click)="switchLanguage('ja')">日本語</button>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,201 @@
+{
+  "ABOUT": "会社概要",
+  "SERVICES": "サービス",
+  "JOBS": "求人",
+  "CONTACT": "お問い合わせ",
+  "JOB_PORTAL": "求人ポータル",
+  "LANGUAGE": "言語",
+  "SLIDER": {
+    "TITLE": "変化を続ける。",
+    "DESCRIPTION": "アドミックは、人材や企業をADD（加えて）、MIX（融合する）ことで新たな可能性を提案。"
+  },
+  "SERVICE_SECTION": {
+    "TITLE": "人材をお探しの企業様",
+    "SUBTITLE": "当社のサービス",
+    "FIRST_SECTION": {
+      "HEADING": "人材をお探しの企業様",
+      "DESCRIPTION": "本質をしっかりと理解し、タイムリーに最適の人材をご提案。お客様にとっても働くスタッフにとっても最善の環境を整えます。",
+      "OPTIONS": {
+        "OPTION_1": "01 人材派遣サービス",
+        "OPTION_2": "02 特定技能外国人紹介サービス",
+        "OPTION_3": "03 アウトソーシングサービス"
+      }
+    },
+    "SECOND_SECTION": {
+      "HEADING": "お仕事をお探しの求職者様",
+      "DESCRIPTION": "アドミックは「企業」と「人材」を結ぶベストパートナーです。介在価値を圧倒的に発揮し、企業、求職者の双方満足を追求します。",
+      "OPTIONS": {
+        "OPTION_1": "01 求人情報サービス",
+        "OPTION_2": "02 キャリアサポート",
+        "OPTION_3": "03 転職相談"
+      }
+    }
+  },
+  "LEARN_MORE": "詳しく見る",
+  "INTERVIEW_SECTION": {
+    "TITLE": "面接 & 応募",
+    "DESCRIPTION": "次の面接に備えましょう！当社のプラットフォームでは、求人応募や面接成功のためのツールを提供しています。",
+    "COMPANY_INFO": "企業情報",
+    "COMPANY_OVERVIEW": "会社概要",
+    "SECTIONS": {
+      "PHILOSOPHY": {
+        "TITLE": "企業理念・基本行動指針",
+        "BUTTON": "さらに詳しく"
+      },
+      "MESSAGE": {
+        "TITLE": "トップメッセージ",
+        "BUTTON": "さらに詳しく"
+      },
+      "OVERVIEW": {
+        "TITLE": "会社概要",
+        "BUTTON": "さらに詳しく"
+      }
+    }
+  },
+  "CASE_STUDY_SECTION": {
+    "TITLE": "CASE STUDY",
+    "SUBTITLE": "導入事例",
+    "BUTTON": "さらに詳しく",
+    "STUDIES": {
+      "STUDY_1": {
+        "TITLE": "大手百貨店系スーパーマーケット ミートセンターのアウトソーシング化"
+      },
+      "STUDY_2": {
+        "TITLE": "大手物流会社倉庫でのピッキング業務における短期・単発スタッフの活用"
+      }
+    }
+  },
+  "COLUMN_SECTION": {
+    "TITLE": "コラム",
+    "BUTTON": "さらに詳しく",
+    "ITEMS": [
+      {
+        "ALT": "従業員の生産性",
+        "TEXT": "派遣社員がすぐに移るのを防ぐ！流動先ができる改善率を上げる方法"
+      },
+      {
+        "ALT": "採用メリット",
+        "TEXT": "紹介予定派遣とは？特徴と導入メリットを解説"
+      },
+      {
+        "ALT": "総合サービス",
+        "TEXT": "総合人材サービス会社とは？サービス内容をご紹介"
+      },
+      {
+        "ALT": "職場環境",
+        "TEXT": "働きやすい職場環境を作るためのヒント"
+      },
+      {
+        "ALT": "転職活動",
+        "TEXT": "成功する転職活動のポイント"
+      },
+      {
+        "ALT": "キャリアアップ",
+        "TEXT": "キャリアアップのために必要なスキルとは？"
+      }
+    ]
+  },
+  "INFORMATION_SECTION": {
+    "TITLE": "INFORMATION",
+    "SUBTITLE": "お知らせ",
+    "DETAILS_LINK": "さらに詳しく",
+    "NEWS": [
+      {
+        "DATE": "2024.11.04",
+        "TEXT": "SalesNow DB主催「成長企業セレクション」に選出されました。"
+      },
+      {
+        "DATE": "2024.07.05",
+        "TEXT": "2024年度事業年度マージン率の公開。"
+      },
+      {
+        "DATE": "2023.12.11",
+        "TEXT": "株式会社Winbookの株式取得（子会社化）に関するお知らせ。"
+      }
+    ]
+  },
+  "FOOTER": {
+    "COMPANY_SECTION": {
+      "TITLE": "企業の方",
+      "ITEMS": [
+        "アドミックの特徴",
+        "導入事例",
+        "人材派遣サービス",
+        "特定技能外国人紹介サービス",
+        "アウトソーシングサービス"
+      ]
+    },
+    "JOB_SEEKER_SECTION": {
+      "TITLE": "求職者の方",
+      "ITEMS": [
+        "求人情報サービス「JOB-CAST」"
+      ]
+    },
+    "COMPANY_INFO_SECTION": {
+      "TITLE": "企業情報",
+      "ITEMS": [
+        "企業理念",
+        "トップメッセージ",
+        "会社概要",
+        "拠点案内"
+      ]
+    },
+    "COLUMN_SECTION": {
+      "TITLE": "コラム",
+      "ITEMS": [
+        "お知らせ",
+        "採用情報",
+        "中途採用エントリー",
+        "お問い合わせ"
+      ]
+    },
+    "LEGAL_SECTION": {
+      "ITEMS": [
+        "サイトのご利用に当たって",
+        "個人情報保護方針",
+        "マイナンバーについて",
+        "取扱職種の範囲等の明示",
+        "サイトマップ"
+      ]
+    },
+   "JOB_PORTAL": {
+  "JOB_LISTINGS": "求人情報",
+  "JOB_TYPE": "仕事の種類",
+  "WORK_MODE": "勤務形態",
+  "SALARY": "給与",
+  "FULL_TIME": "フルタイム",
+  "PART_TIME": "パートタイム",
+  "INTERNSHIP": "インターンシップ",
+  "CONTRACT": "契約",
+  "ON_SITE": "出社",
+  "REMOTE": "リモート",
+  "HYBRID": "ハイブリッド",
+  "NO_JOBS": "選択したフィルターに一致する求人はありません。",
+  "VIEW_DETAILS": "詳細を見る",
+  "APPLY_NOW": "今すぐ応募"
+},
+"contact": {
+    "title": "お問い合わせ",
+    "type": "種類",
+    "corporate": "法人",
+    "individual": "個人",
+    "company_name": "企業名",
+    "name": "お名前",
+    "first_name": "名",
+    "last_name": "姓",
+    "phonetic": "お名前 (ふりがな)",
+    "phone": "電話番号",
+    "email": "メールアドレス",
+    "message": "お問い合わせ内容",
+    "submit": "送信",
+    "validation": {
+      "required": "このフィールドは必須です",
+      "phone": "有効な10桁の電話番号を入力してください",
+      "email": "有効なメールアドレスを入力してください",
+      "message": "メッセージは10文字以上入力してください",
+      "type": "種類を選択してください"
+    }
+  }
+
+  }
+}

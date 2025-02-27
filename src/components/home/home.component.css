@@ -1,0 +1,664 @@
+
+section.image-wrapper {
+  padding-top: 3rem;
+}
+
+
+.text-wrapper{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top:1rem;
+}
+.container-main{
+  gap:2rem;
+}
+.map-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.map-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Optional: Add spacing around the map */
+.map-section {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Style for Interview Section */
+.interview-section {
+  margin-top: 50px;
+  padding: 40px 0;
+}
+
+.interview-section h2 {
+  margin-bottom: 20px;
+}
+
+.interview-section img {
+  width: 100%;
+  height: auto;
+}
+
+.interview-section p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+}
+
+.text-center {
+  margin-bottom: 30px;
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .carousel-inner {
+    height: 400px; /* Adjust height for tablets and smaller screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 300px; /* Adjust height for mobile landscape */
+  }
+  .text-wrapper{
+  
+      padding-top:1rem;
+  }
+  .home-container{
+    padding: 0.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-inner {
+    height: 250px; /* Adjust height for mobile portrait */
+  }
+}
+
+
+.transition-transform {
+  transition: transform 0.5s ease-in-out;
+}
+
+.img-thumbnail {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.img-thumbnail:hover {
+  opacity: 0.8;
+}
+
+/* Global Styles */
+
+/* Service Container */
+.service-container {
+  position: relative;
+  background-color: #D74144;
+  z-index: 1;
+  border-radius: 15px;
+  padding: 50px 20px;
+  overflow: visible; /* ✅ Ensure pseudo-elements are visible */
+}
+
+/* Before pseudo-element for top background image */
+.service-container::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 225px; /* ✅ Ensure height is set */
+  background-image: url("/assets/os_back_top.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover; /* ✅ Ensure full visibility */
+  top: 0;
+  left: 0;
+  z-index: 0; /* ✅ Make sure it's visible */
+  opacity: 1;
+}
+
+/* After pseudo-element for bottom background image */
+.service-container::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 250px; /* ✅ Ensure height is set */
+  background-image: url("/assets/os_back_bottom.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+opacity: 1;
+}
+.image-wrapper .row{
+  position: relative;
+  z-index:19;
+}
+/* Heading Styles */
+.topService__h2 {
+  text-align: center;
+  color: white; /* ✅ Improved visibility */
+}
+
+.topService__h2 span {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.topService__h2 small {
+  font-size: 16px;
+  color: #eee;
+}
+
+/* Image Section */
+.newslider .custom-slider-image  {
+  border-radius: 15px;
+  object-fit: cover;
+  min-height: 400px; /* ✅ Increased image height */
+  width: 100%;
+}
+.images {
+  min-height: unset;
+}
+/* Zigzag Layout for Images */
+.col-4:nth-child(1) {
+  margin-top: 0;
+}
+
+.col-4:nth-child(2) {
+  margin-top: 50px; /* ✅ Shift second image down for zigzag effect */
+}
+
+.col-4:nth-child(3) {
+  margin-top: 0;
+}
+
+/* Service Options */
+.service-option {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9f9f9;
+  transition: 0.3s;
+}
+
+.service-option:hover {
+  background: #f1f1f1;
+}
+
+/* Buttons */
+.service-option button {
+  background-color: #D74144;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.services-img {
+  object-fit: cover;
+  min-height: 300px;
+  height: 100%;
+}
+.service-option button:hover {
+  background-color: #c03030;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .row img {
+    height: 250px; /* ✅ Adjusted height for mobile */
+  }
+  
+  .col-4:nth-child(2) {
+    margin-top: 20px; /* ✅ Reduced spacing for smaller screens */
+  }
+  
+  .service-container {
+    padding: 30px 15px;
+  }
+}
+.container {
+  position: relative;
+}
+
+
+
+
+h5, h2 {
+  font-weight: bold;
+}
+
+.text-danger {
+  color: #dc3545 !important; /* Ensure red color consistency */
+}
+
+img {
+  object-fit: cover;
+  max-height: 200px; /* Consistent height for all images */
+}
+
+.btn-outline-danger {
+  padding: 10px 20px;
+}
+
+.row {
+  border-bottom: 1px solid #ddd; /* Adds separation between rows */
+  padding-bottom: 20px;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto; /* Align the button to the right */
+}
+
+.mr-2 {
+  margin-right: 8px; /* Space between the dot and heading */
+}
+
+
+.section__inner {
+  width: 100%;
+  max-width: 1080px; /* Restrict the maximum width */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Add padding for inner content */
+  position: relative; /* Make the container a positioning context */
+}
+
+.vertical-text {
+  position: absolute; /* Allow positioning outside the normal flow */
+  top: 50%; /* Vertically center */
+  left: -60px; /* Move it outside the container */
+  transform: translateY(-50%); /* Adjust for perfect centering */
+  writing-mode: vertical-rl; /* Enable vertical text flow */
+  text-orientation: upright; /* Keep characters upright */
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.text-danger {
+  color: #dc3545; /* Red color */
+}
+
+
+
+.newslider {
+  min-height: 400px; /* Increased height */
+  display: flex;
+  align-items: center;
+}
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider-images {
+  display: flex;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-slider-image {
+  flex: none;
+  width: 100%;
+  height: 100%; /* Full height */
+  object-fit: cover; /* Ensure images cover the space */
+}
+
+.position-relative {
+  overflow: hidden;
+}
+
+/*information */
+
+.information {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 8px;
+  background: #E8E9E8;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.left-section {
+  flex: 0 0 30%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.left-section h2 {
+  color: #d32f2f;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.left-section h3 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+.details-link {
+  color: #d32f2f;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.right-section {
+  flex: 0 0 70%;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+li span {
+  color: #555;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+ /* image team */
+
+ .team-images-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+/* .team-images-section img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+
+/* cards section */
+h4 {
+  font-weight: bold;
+}
+
+.rounded-circle {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 4px solid #dc3545;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure buttons are positioned correctly */
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Ensure visibility */
+  border-radius: 50%;
+  z-index: 1050; /* Ensure buttons are above all elements */
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Move buttons outside the content */
+.carousel-control-prev {
+  left: -60px;
+}
+
+.carousel-control-next {
+  right: -60px;
+}
+
+/* Change arrow color */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%); /* Change from white to black */
+  width: 30px;
+  height: 30px;
+}
+
+
+/* Container Styling */
+.service-container {
+
+  background: #dc3545;
+  border-radius: 10px;
+}
+
+
+/* Image Section - Two Images Side by Side */
+.image-section {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image Styling */
+.service-img {
+  width: 48%; /* Ensure both images take equal space */
+  height: 350px;
+  border-radius: 15px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.service-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.second-sec{
+  height: 400px;
+}
+/* Heading Above Images */
+.image-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Button Above Images */
+.image-button {
+  background: white;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  padding: 5px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.image-button:hover {
+  background: #dc3545;
+  color: white;
+}
+
+/* Service Options */
+.service-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #dc3545;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.service-option:hover {
+  background: #dc3545;
+  color: white;
+}
+
+/* Service Option Button */
+.service-option button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: inherit;
+  cursor: pointer;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.rounded-circle {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border: 4px solid #dc3545;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+
+
+
+/* Learn More Button Styling */
+.learn-more-btn {
+  background: white;
+  color: #dc3545;
+  border: 2px solid #dc3545;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.heading{
+  font-size: 30px;
+}
+.learn-more-btn:hover {
+  background: #dc3545;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
+.learn-more-btn i {
+  transition: transform 0.3s ease-in-out;
+}
+
+.learn-more-btn:hover i {
+  transform: translateX(5px);
+}
+
+
+
+/* Add this CSS to your global styles or component-specific styles */
+
+/* Animation for section fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to each section */
+.newslider, .image-wrapper, .interview-section, #case-study-section, #column-section, .information {
+  opacity: 0; /* Start with hidden sections */
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+/* Delay animations for each section */
+.newslider {
+  animation-delay: 2s;
+}
+
+.image-wrapper {
+  animation-delay: 4s;
+}
+
+.interview-section {
+  animation-delay: 6s;
+}
+
+#case-study-section {
+  animation-delay: 8s;
+}
+
+#column-section {
+  animation-delay: 10s;
+}
+
+.information {
+  animation-delay: 12s;
+}
+

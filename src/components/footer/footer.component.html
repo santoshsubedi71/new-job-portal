@@ -1,0 +1,63 @@
+<footer class="bg-danger text-white py-4">
+  <div class="container">
+    <div class="row">
+      <!-- Column 1: Logo -->
+      <div class="col-lg-2 mb-3 d-flex align-items-center">
+        <img src="assets/logo.jpg" alt="Company Logo" class="img-fluid" style="max-height: 80px;">
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-lg-2 mb-3">
+        <h5>{{ 'FOOTER.COMPANY_SECTION.TITLE' | translate }}</h5>
+        <ul class="list-unstyled">
+          <li *ngFor="let item of ['ITEMS.0', 'ITEMS.1', 'ITEMS.2', 'ITEMS.3', 'ITEMS.4']">
+            {{ 'FOOTER.COMPANY_SECTION.' + item | translate }}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-lg-2 mb-3">
+        <h5>{{ 'FOOTER.JOB_SEEKER_SECTION.TITLE' | translate }}</h5>
+        <ul class="list-unstyled">
+          <li *ngFor="let item of ['ITEMS.0']">
+            {{ 'FOOTER.JOB_SEEKER_SECTION.' + item | translate }}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-lg-2 mb-3">
+        <h5>{{ 'FOOTER.COMPANY_INFO_SECTION.TITLE' | translate }}</h5>
+        <ul class="list-unstyled">
+          <li *ngFor="let item of ['ITEMS.0', 'ITEMS.1', 'ITEMS.2', 'ITEMS.3']">
+            {{ 'FOOTER.COMPANY_INFO_SECTION.' + item | translate }}
+          </li>
+        </ul>
+      </div>
+
+      <!-- Column 5 -->
+      <div class="col-lg-2 mb-3">
+        <h5>{{ 'FOOTER.COLUMN_SECTION.TITLE' | translate }}</h5>
+        <ul class="list-unstyled">
+          <li *ngFor="let item of ['ITEMS.0', 'ITEMS.1', 'ITEMS.2', 'ITEMS.3']">
+            {{ 'FOOTER.COLUMN_SECTION.' + item | translate }}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="border-white">
+
+    <!-- Footer Links -->
+    <div class="d-flex justify-content-between align-items-center">
+      <ul class="list-unstyled d-flex mb-0">
+        <li *ngFor="let item of ['ITEMS.0', 'ITEMS.1', 'ITEMS.2', 'ITEMS.3', 'ITEMS.4']" class="me-3">
+          <a href="#" class="text-white text-decoration-none">
+            {{ 'FOOTER.LEGAL_SECTION.' + item | translate }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>

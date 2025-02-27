@@ -1,0 +1,314 @@
+/* Custom styling for the About Us component */
+
+/* Ensure the banner image has a fixed height */
+.banner-img {
+    object-fit: cover; /* Ensures the image covers the entire space without distortion */
+    height: 450px; /* Set the height to 450px */
+    width: 100%; /* Make sure the image is full-width */
+}
+
+/* Optional: Center the text over the banner */
+.position-absolute {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+/* Add animation for cards */
+.card-animate {
+  opacity: 0;
+  transform: translateY(20px); /* Initially position cards slightly lower */
+  transition: all 0.3s ease-out;
+}
+
+/* On hover, animate the card with scaling effect */
+.card-animate:hover {
+  transform: translateY(-10px) scale(1.05); /* Scale up and move up */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Animation when cards enter the viewport */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fadeInUp animation to cards when they come into the viewport */
+.card-animate {
+  animation: fadeInUp 0.8s ease-out forwards;
+  animation-delay: 0.3s; /* Delay for staggered appearance */
+}
+
+/* Optional: Make sure cards become visible after page load */
+.card-animate.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Delay animation for each card */
+.card-animate:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.card-animate:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.card-animate:nth-child(3) {
+  animation-delay: 0.7s;
+}
+
+/* Ensure all content in cards are centered */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* Center the button below the text content */
+.d-flex.justify-content-center {
+  margin-top: auto;
+}
+
+
+.about-us-container {
+  padding: 50px 20px;
+  background-color: white;
+  position: relative;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+.text-section {
+  display: flex;
+}
+.vertical-text-english {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 3.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.script-font {
+  font-family: "Brush Script MT", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+}
+
+.main-text {
+  font-size: 3.2rem;
+  font-weight: normal;
+  margin-top: 10px;
+}
+.txt_desp {
+  font-size: 1.5rem;
+}
+
+
+.philosophy-container {
+  padding: 80px 20px;
+  background-color: white;
+  position: relative;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.section-text {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.philosophy-text {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: right;
+  padding-right: 20px;
+}
+
+.vertical-japanese {
+  display: block;
+  font-size: 1rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+}
+
+.vertical-english {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 3px;
+}
+.philosophy-text {
+  position: absolute;
+  top: 50%;
+  left: 20px; /* Moves it to the left */
+  transform: translateY(-50%);
+  text-align: left;
+  display: flex;
+}
+
+.vertical-japanese {
+  display: block;
+  font-size: 2rem;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  
+}
+
+.vertical-english {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  letter-spacing: 3px;
+  margin-left: 2rem;
+}
+
+
+
+/* Responsive styles for mobile and tablets */
+@media (max-width: 992px) {
+  .banner-img {
+      height: 300px; /* Reduce banner height for smaller screens */
+  }
+  
+  .position-absolute {
+      width: 90%; /* Adjust text width for readability */
+  }
+  
+  .text-white h1 {
+      font-size: 1.8rem;
+  }
+  .text-white p {
+      font-size: 1rem;
+  }
+  
+  .card-body {
+      padding: 1rem;
+  }
+  
+  .vertical-text, .vertical-text-english {
+      font-size: 2rem; /* Reduce text size for mobile */
+  }
+  
+  .script-font {
+      font-size: 2rem;
+  }
+  
+  .main-text {
+      font-size: 1.8rem;
+  }
+  
+  .philosophy-text {
+      position: relative;
+      text-align: center;
+      display: block;
+      left: 0;
+      top: 0;
+      transform: none;
+  }
+  
+  .vertical-japanese, .vertical-english {
+      writing-mode: horizontal-tb;
+      display: inline-block;
+      font-size: 1.5rem;
+      margin-left: 0;
+  }
+  
+  .top-message-section {
+      flex-direction: column;
+  }
+  
+  .top-message-section .col-md-2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+  
+  .text-content {
+      padding: 15px;
+  }
+  
+  .text-content h2 {
+      font-size: 1.8rem;
+  }
+  .text-content p {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-us-container {
+      padding: 30px 10px;
+  }
+  
+  .card {
+      margin-bottom: 20px;
+  }
+  
+  .col-md-4 {
+      width: 100%; /* Stack cards vertically */
+  }
+  
+  .vertical-text, .vertical-text-english {
+      font-size: 1.8rem;
+  }
+  
+  .script-font {
+      font-size: 1.5rem;
+  }
+  
+  .main-text {
+      font-size: 1.5rem;
+  }
+  
+  .txt_desp p {
+      font-size: 1rem;
+  }
+  
+  .thumb iframe {
+      width: 100%;
+      height: 250px; /* Adjust iframe size for small screens */
+  }
+.text-section{
+
+    flex-direction: row;
+    position: relative;
+    top: 0;
+    transform: rotate(270deg);
+    text-align: center;
+    justify-content: center;
+    left: 25%;
+}
+}
+

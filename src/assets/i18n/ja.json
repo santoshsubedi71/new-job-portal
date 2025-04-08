@@ -9,29 +9,22 @@
     "TITLE": "変化を続ける。",
     "DESCRIPTION": "アドミックは、人材や企業をADD（加えて）、MIX（融合する）ことで新たな可能性を提案。"
   },
-  "SERVICE_SECTION": {
-    "TITLE": "人材をお探しの企業様",
-    "SUBTITLE": "当社のサービス",
-    "FIRST_SECTION": {
-      "HEADING": "人材をお探しの企業様",
-      "DESCRIPTION": "本質をしっかりと理解し、タイムリーに最適の人材をご提案。お客様にとっても働くスタッフにとっても最善の環境を整えます。",
-      "OPTIONS": {
-        "OPTION_1": "01 人材派遣サービス",
-        "OPTION_2": "02 特定技能外国人紹介サービス",
-        "OPTION_3": "03 アウトソーシングサービス"
+  "COLUMN_SECTION": {
+    "ITEMS": [
+      {
+        "title": "私たちの使命",
+        "description": "個人に優れた仕事の機会を提供し、最高の企業と結びつけることです。"
+      },
+      {
+        "title": "私たちのビジョン",
+        "description": "すべての個人がキャリア成長の機会にアクセスできるグローバルネットワークを作成することです。"
+      },
+      {
+        "title": "私たちの価値観",
+        "description": "誠実、革新、包摂は、意義のある職場環境を促進するために私たちが実践する価値観です。"
       }
-    },
-    "SECOND_SECTION": {
-      "HEADING": "お仕事をお探しの求職者様",
-      "DESCRIPTION": "アドミックは「企業」と「人材」を結ぶベストパートナーです。介在価値を圧倒的に発揮し、企業、求職者の双方満足を追求します。",
-      "OPTIONS": {
-        "OPTION_1": "01 求人情報サービス",
-        "OPTION_2": "02 キャリアサポート",
-        "OPTION_3": "03 転職相談"
-      }
-    }
+    ]
   },
-  "LEARN_MORE": "詳しく見る",
   "INTERVIEW_SECTION": {
     "TITLE": "面接 & 応募",
     "DESCRIPTION": "次の面接に備えましょう！当社のプラットフォームでは、求人応募や面接成功のためのツールを提供しています。",
@@ -140,15 +133,7 @@
         "拠点案内"
       ]
     },
-    "COLUMN_SECTION": {
-      "TITLE": "コラム",
-      "ITEMS": [
-        "お知らせ",
-        "採用情報",
-        "中途採用エントリー",
-        "お問い合わせ"
-      ]
-    },
+
     "LEGAL_SECTION": {
       "ITEMS": [
         "サイトのご利用に当たって",
@@ -197,5 +182,22 @@
     }
   }
 
+  }, 
+"TEAM_SECTION": {
+  "TITLE": "私たちのチーム",
+  "CEO_TITLE": "最高経営責任者 (CEO)",
+  "CEO_DESC": "これはホライズングループのCEOです。"
+},
+"COMPANY": {
+    "FOUNDED": "会社設立：",
+    "CAPITAL": "資本金：",
+    "ADDRESS": "住所：",
+    "TOKYO_BRANCH": "東京校：",
+    "NEPAL_BRANCH": "ネパール校：",
+    "BUSINESS_DETAILS": "事業内容：",
+    "EDUCATION": "教育 (外国人就労活動支援スクール「Wiz Academy」)",
+    "JOB_SUPPORT": "職業紹介事業「Wiz Job」（13-ユ-313193）",
+    "REGISTRATION_SUPPORT": "登録支援機関（22登-006871）"
   }
+
 }

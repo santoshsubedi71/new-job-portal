@@ -17,4 +17,5 @@ export class NavbarComponent {
   switchLanguage(lang: string) {
     this.translate.use(lang);
   }
+  
 }

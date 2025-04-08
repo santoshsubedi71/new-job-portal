@@ -12,6 +12,8 @@ import { TranslateService, TranslateModule } from '@ngx-translate/core';
 export class HomeComponent implements OnInit, OnDestroy {
   currentIndex = 0;
   slideInterval: any;
+
+
   columnContent: any[] = [];
   newsList = [
     { DATE: '2025-02-14', TEXT: 'New job opportunities available!' },

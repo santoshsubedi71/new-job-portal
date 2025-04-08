@@ -9,29 +9,7 @@
     "TITLE": "Continue to Change.",
     "DESCRIPTION": "Admic proposes new possibilities by ADDing people and companies and MIXing them together."
   },
-  "SERVICE_SECTION": {
-    "TITLE": "For Companies Looking for Talent",
-    "SUBTITLE": "Our Services",
-    "FIRST_SECTION": {
-      "HEADING": "For Companies Looking for Talent",
-      "DESCRIPTION": "We thoroughly understand the essence and provide the best talent in a timely manner. We create the best environment for both our clients and the employees.",
-      "OPTIONS": {
-        "OPTION_1": "01 Staffing Services",
-        "OPTION_2": "02 Specific Skilled Foreign Worker Introduction Service",
-        "OPTION_3": "03 Outsourcing Services"
-      }
-    },
-    "SECOND_SECTION": {
-      "HEADING": "For Job Seekers Looking for Work",
-      "DESCRIPTION": "Admic is the best partner that connects 'companies' and 'talent.' We maximize our value and pursue satisfaction for both companies and job seekers.",
-      "OPTIONS": {
-        "OPTION_1": "01 Job Information Services",
-        "OPTION_2": "02 Career Support",
-        "OPTION_3": "03 Career Consultation"
-      }
-    }
-  },
-  "LEARN_MORE": "Learn More",
+
   "INTERVIEW_SECTION": {
     "TITLE": "Interview & Apply",
     "DESCRIPTION": "Prepare for your next interview with us! Our platform provides the tools you need to apply for jobs and succeed in interviews.",
@@ -197,6 +175,23 @@
     }
   }
     
+  },
+  "TEAM_SECTION": {
+    "TITLE": "Our Team",
+    "CEO_TITLE": "Chief Executive Officer (CEO)",
+    "CEO_DESC": "This is the CEO of Horizon Group."
+  } ,
+
+  "COMPANY": {
+    "FOUNDED": "Founded:",
+    "CAPITAL": "Capital:",
+    "ADDRESS": "Address:",
+    "TOKYO_BRANCH": "Tokyo Branch:",
+    "NEPAL_BRANCH": "Nepal Branch:",
+    "BUSINESS_DETAILS": "Business Details:",
+    "EDUCATION": "Education (Foreign Employment Support School 'Wiz Academy')",
+    "JOB_SUPPORT": "Job Placement Business 'Wiz Job' (License No. 13-ユ-313193)",
+    "REGISTRATION_SUPPORT": "Registration Support Agency (22登-006871)"
   }
-  
+
 }
